@@ -13,4 +13,5 @@ def application(req, res):
         ('Content-Type', 'text/html;charset=UTF-8'),
     ])
     yield bytes(f.getvalue(), 'utf-8')
+#     123
 # python wifiwsgi.py --http-socket :8000 --plugin python3 --wsgi-file database.py
